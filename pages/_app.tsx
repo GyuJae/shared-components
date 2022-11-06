@@ -1,6 +1,6 @@
 import createCache from '@emotion/cache';
 import { CacheProvider } from '@emotion/react';
-import { globalStyles } from '../shared';
+import { globalStyles } from '@/shared';
 
 const cache = createCache({ key: 'next' });
 

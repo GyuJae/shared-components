@@ -47,3 +47,5 @@ export const colors = {
   error: palette.angry500,
   errorBackground: palette.angry100,
 } as const;
+
+export type TColor = keyof typeof colors;
